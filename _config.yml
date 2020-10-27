@@ -1,32 +1,19 @@
-title: Daniel Šintaj
+title: Conditions and Cycles
 description: Engineering
-author: Daniel Šintaj
+author: Daniel Šintaj 
 github: https://github.com/xdnny
-about: DevOps engineer.
+about: DevOps engineer
 disqus_shortname: xdnny-github-io
 google_analytics: UA-155196693-1
 
 enableTags: true
-tagarray: []
-
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+tagarray: [kubernetes,python]
 
 social:
-    - icon: fa-github
-      link: "https://github.com/xdnny"
-
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
-
-urls:
-    - text: About Me
-      url: /about/
-    - text: XML Feed
-      url: /feed.xml
+  - icon: fa-twitter
+    link: "https://twitter.com/DanielSintaj"
+  - icon: fa-github
+    link: "https://github.com/xdnny"
 
 url: "https://xdnny.github.io"
 baseurl: ""
@@ -37,10 +24,3 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-gist
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
